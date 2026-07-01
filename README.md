@@ -18,7 +18,7 @@ Early scaffolding. The `terraform-bootstrap` workload is designed (see
 | `scripts/` | Deployment and validation script wrappers (`az deployment group create`, linting) |
 | `tests/` | Bicep validation and deployment tests |
 | `docs/` | Human-facing architecture notes and diagrams |
-| `ai/context/` | Design records for AI assistants — read before implementing or changing a workload |
+| `ai/context/` | Design records for AI assistants, read before implementing or changing a workload |
 | `.github/workflows/` | CI/CD pipelines (lint, what-if, deploy) |
 
 Each workload lives in its own top-level folder containing a `main.bicep` and one
